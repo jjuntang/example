@@ -1,0 +1,8 @@
+server.port: 8081
+kafka:
+  bootstrap-servers: 172.22.140.6:9092
+  topic:
+    received: test
+    sending: test
+  group-id: csms-biz-group
+  deserializer : String
