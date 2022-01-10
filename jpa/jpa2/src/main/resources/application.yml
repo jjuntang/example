@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    hibernate.ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate.jdbc.time_zone: UTC
+  datasource:
+    url: jdbc:mariadb://3.37.225.152:3306/eve_csms
+    username: eve-csms-ap
+    password: ap3306##
+    driver-class-name: org.mariadb.jdbc.Driver
+  servlet.multipart:
+    maxFileSize: 10MB
+    maxRequestSize: 10MB
