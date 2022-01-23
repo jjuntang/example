@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:log4jdbc:mysql://211.115.68.126:3306/posco?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Seoul
+    username: posco
+    password: posco!chargev@db#0010
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        # show_sql: true
+        format_sql: true
+
+  logging.level:
+    org.hibernate.SQL: debug
+    # org.hibernate.type: trace
