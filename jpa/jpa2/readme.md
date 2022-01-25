@@ -16,7 +16,7 @@
 ```yml
 spring:
   jpa:
-    hibernate.ddl-auto: update
+    hibernate.ddl-auto: none
     show-sql: true
     properties:
       hibernate.jdbc.time_zone: UTC
